@@ -12,7 +12,7 @@
  blockquote:before { content: '\201C'; top: 21px; left: 5px; }
  blockquote:after { content: '\201D'; bottom: 11px; margin-left: 6px; }
  input[type="text"], input[type="email"], textarea { border: 1px solid #dddddd; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; -webkit-appearance: none; -moz-appearance: none; appearance: none; outline: none; text-shadow: none; }
- select { background: white url(theme/select-dropdown.png?1452775613) 97% center no-repeat; border-radius: 0; -webkit-appearance: none; -moz-appearance: none; appearance: none; outline: none; text-indent: 0.01px; text-overflow: ''; box-sizing: border-box; font-family: 'Roboto', sans-serif; font-size: 15px; font-weight: normal; line-height: normal; }
+ select { background: white url(theme/select-dropdown.png?1453189304) 97% center no-repeat; border-radius: 0; -webkit-appearance: none; -moz-appearance: none; appearance: none; outline: none; text-indent: 0.01px; text-overflow: ''; box-sizing: border-box; font-family: 'Roboto', sans-serif; font-size: 15px; font-weight: normal; line-height: normal; }
  input[type="radio"], input[type="checkbox"] { width: 18px; height: 18px; border: 1px solid #dddddd !important; background: white; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; -webkit-appearance: none; -moz-appearance: none; appearance: none; outline: none; text-shadow: none; }
  input[type="radio"] { border-radius: 100%; }
  input[type="radio"]:after { display: block; border-radius: 100%; box-sizing: border-box; content: ""; }
@@ -21,7 +21,7 @@
  input[type="checkbox"]:checked:after { display: block; content: " "; }
  .wrapper { position: relative; right: 0; z-index: 4; min-height: 100%; background: #f8f8f8; -webkit-box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.05); -moz-box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.05); box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.05); -webkit-transition: right 610ms cubic-bezier(0, 0.8, 0.55, 1); -moz-transition: right 610ms cubic-bezier(0, 0.8, 0.55, 1); -ms-transition: right 610ms cubic-bezier(0, 0.8, 0.55, 1); -o-transition: right 610ms cubic-bezier(0, 0.8, 0.55, 1); transition: right 610ms cubic-bezier(0, 0.8, 0.55, 1); }
  .container { width: 960px; margin: 0 auto; box-sizing: border-box; }
- .header-wrap { position: relative; z-index: 7; overflow: hidden; background: url(theme/default-bg-teal.jpg?1452775613) no-repeat; background-size: cover; background-position: center center; }
+ .header-wrap { position: relative; z-index: 7; overflow: hidden; background: url(theme/default-bg-teal.jpg?1453189304) no-repeat; background-size: cover; background-position: center center; }
  .header-wrap:before { display: block; content: ''; height: 100%; width: 100%; position: absolute; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.35); }
  .menu-controls-wrap { position: absolute; top: 0; left: 0; z-index: 13; overflow: hidden; padding: 15px 0; width: 100%; }
  .menu-controls-wrap label.hamburger { display: none; }
@@ -61,7 +61,7 @@
  .main-wrap .container { padding: 50px 0; }
  .wsite-social { white-space: normal; }
  .wsite-social .wsite-social-item { width: 23px; height: 23px; margin: 0 3px 0 0; color: #676767; padding: 5px 5px 8px; line-height: 1.8; display: inline-block; transition: 0.2s ease-in color; }
- .wsite-search-button, .wsite-editor .wsite-search-button { width: 14px; height: 14px; padding: 3px 8px; background: url(theme/search.svg?1452775613) no-repeat; background-position: 50%; }
+ .wsite-search-button, .wsite-editor .wsite-search-button { width: 14px; height: 14px; padding: 3px 8px; background: url(theme/search.svg?1453189304) no-repeat; background-position: 50%; }
  #footer-wrap { position: relative; right: 0; z-index: 4; background: #35A89A; -webkit-transition: right 610ms cubic-bezier(0, 0.8, 0.55, 1); -moz-transition: right 610ms cubic-bezier(0, 0.8, 0.55, 1); -ms-transition: right 610ms cubic-bezier(0, 0.8, 0.55, 1); -o-transition: right 610ms cubic-bezier(0, 0.8, 0.55, 1); transition: right 610ms cubic-bezier(0, 0.8, 0.55, 1); }
  #footer-wrap .wsite-footer { padding: 60px 0; font-size: 14px; }
  #footer-wrap h2 { color: #fff; font-size: 18px; line-height: 1.7; font-weight: 600; }
@@ -81,7 +81,7 @@
  .form-radio-container { font-size: 16px; color: #676767; margin-bottom: 15px; }
  .wsite-form-input, .wsite-search-element-input { height: auto; padding: 10px 12px !important; background: #fff; color: #676767; border: 1px solid #dddddd; border-radius: 0; -webkit-appearance: none; font-family: 'Roboto', sans-serif; font-size: 15px; font-weight: normal; line-height: normal; -webkit-transition: all 300ms ease-in; -moz-transition: all 300ms ease-in; -ms-transition: all 300ms ease-in; -o-transition: all 300ms ease-in; transition: all 300ms ease-in; }
  .wsite-form-input:hover, .wsite-search-element-input:hover, .wsite-form-input:focus, .wsite-search-element-input:focus { border: 1px solid #35A89A; outline: none; }
- .form-select, .wsite-form-field select, .wsite-com-product-option-groups select { height: auto; padding: 8px !important; background: white url(theme/select-dropdown.png?1452775613) 97% center no-repeat; color: #676767; border: 1px solid #dddddd; border-radius: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif; font-size: 15px; font-weight: normal; line-height: normal; -webkit-transition: all 300ms ease-in; -moz-transition: all 300ms ease-in; -ms-transition: all 300ms ease-in; -o-transition: all 300ms ease-in; transition: all 300ms ease-in; }
+ .form-select, .wsite-form-field select, .wsite-com-product-option-groups select { height: auto; padding: 8px !important; background: white url(theme/select-dropdown.png?1453189304) 97% center no-repeat; color: #676767; border: 1px solid #dddddd; border-radius: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif; font-size: 15px; font-weight: normal; line-height: normal; -webkit-transition: all 300ms ease-in; -moz-transition: all 300ms ease-in; -ms-transition: all 300ms ease-in; -o-transition: all 300ms ease-in; transition: all 300ms ease-in; }
  .form-select:hover, .wsite-form-field select:hover, .wsite-com-product-option-groups select:hover, .form-select:focus, .wsite-form-field select:focus, .wsite-com-product-option-groups select:focus { border: 1px solid #35A89A; outline: none; }
  .wsite-search-element-input::-webkit-input-placeholder { font-weight: 300; font-family: 'Roboto'; letter-spacing: 0.03em; }
  .wsite-button, .wsite-editor .wsite-button { height: auto; padding: 0; background: none; }
